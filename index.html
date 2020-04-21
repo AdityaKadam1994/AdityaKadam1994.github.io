@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Aditya Kadam | Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+    <style>
+      .repo-work {
+        color: white;
+      }
+      .repo-work h3 {
+        margin-bottom: 10px;
+        color: white;
+      }
+      .repo-work a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 5px 5px 10px;
+      }
+      .repo-wrapper {
+        background: #8360c3; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #2ebf91,
+          #8360c3
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #2ebf91,
+          #8360c3
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border-radius: 5px;
+        -webkit-box-shadow: 9px 6px 5px 2px rgb(226, 213, 213);
+        -moz-box-shadow: 9px 6px 5px 2px rgb(226, 213, 213);
+        box-shadow: 9px 6px 5px 2px rgb(226, 213, 213);
+      }
+      .repo-work .repo-descp {
+        font-size: 18px;
+        margin-bottom: 1em;
+      }
+      .repo-work .tech-details {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .repo-work .tech-details p {
+        font-size: 16px;
+        flex: auto;
+      }
+    </style>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper-->
+    <div id="wrapper">
+      <!-- Nav -->
+      <nav id="nav">
+        <a href="#" class="icon solid fa-home"><span>Home</span></a>
+        <a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+        <!-- <a href="#contact" class="icon solid fa-envelope"
+          ><span>Contact</span></a
+        > -->
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Me -->
+        <article id="home" class="panel intro">
+          <header>
+            <h1>Aditya Kadam</h1>
+            <p style="font-weight: 500;">Frontend and UI developer</p>
+            <p style="font-size: 1em; color: black;">
+              I am a proficient frontend and UI developer. I have experience
+              working on Javascript frameworks like React and Vue. Looking
+              forward to work with you :)
+            </p>
+            <a
+              style="color: black;"
+              href="https://www.linkedin.com/in/aditya-kadam-592444123/"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a
+              style="margin-left: 10px; color: black;"
+              href="https://github.com/AdityaKadam1994"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </header>
+
+          <a href="#work" class="jumplink pic">
+            <span class="arrow icon solid fa-chevron-right"
+              ><span>See my work</span></span
+            >
+            <img src="images/me.jpg" alt="" />
+          </a>
+        </article>
+
+        <!-- Work -->
+        <article id="work" class="panel">
+          <header>
+            <h2>Repositories</h2>
+          </header>
+          <p>
+            Checkout some of my repos.
+          </p>
+          <section class="repo-work">
+            <div class="row">
+              <div class="col-6 col-6-medium col-12-small">
+                <div class="repo-wrapper">
+                  <a
+                    href="https://github.com/AdityaKadam1994/covid-stats"
+                    target="_blank"
+                    class="image fit"
+                  >
+                    <h3><i class="fas fa-book"></i> Covid-Stats</h3>
+                    <p class="repo-descp">
+                      It is a react app which gives insights of Covid-19 stats
+                      about India and its state. The app also provides country
+                      search to check insights of other countries.
+                    </p>
+                    <div class="tech-details">
+                      <p><i class="fab fa-react"></i> Javascript / React</p>
+                      <p><i class="fas fa-star"></i> 0</p>
+                      <p><i class="fas fa-code-branch"></i> 0</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- <div class="col-4 col-6-medium col-12-small">
+                <a href="#" class="image fit"
+                  ><img src="images/pic02.jpg" alt=""
+                /></a>
+              </div> -->
+              <div class="col-6 col-6-medium col-12-small">
+                <div class="repo-wrapper">
+                  <a
+                    href="https://github.com/AdityaKadam1994/fortnite"
+                    target="_blank"
+                    class="image fit"
+                  >
+                    <h3><i class="fas fa-book"></i> Fortnite</h3>
+                    <p class="repo-descp">
+                      React app to get fortnite(game) information related items,
+                      weapons, users stats and much more using fortnite API's
+                    </p>
+                    <div class="tech-details">
+                      <p><i class="fab fa-react"></i> Javascript / React</p>
+                      <p><i class="fas fa-star"></i> 0</p>
+                      <p><i class="fas fa-code-branch"></i> 1</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-6 col-6-medium col-12-small">
+                <div class="repo-wrapper">
+                  <a
+                    href="https://github.com/AdityaKadam1994/IGN"
+                    target="_blank"
+                    class="image fit"
+                  >
+                    <h3><i class="fas fa-book"></i> IGN - Data Analysis</h3>
+                    <p class="repo-descp">
+                      Data Analysis on IGN (Game website) using some of the
+                      famous python libraries like numpy, pandas and seaborn.
+                    </p>
+                    <div class="tech-details">
+                      <p><i class="fab fa-python"></i> Python</p>
+                      <p><i class="fas fa-star"></i> 0</p>
+                      <p><i class="fas fa-code-branch"></i> 1</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-6 col-6-medium col-12-small">
+                <div class="repo-wrapper">
+                  <a
+                    href="https://github.com/AdityaKadam1994/movie-finder"
+                    target="_blank"
+                    class="image fit"
+                  >
+                    <h3><i class="fas fa-book"></i> Movie Finder</h3>
+                    <p class="repo-descp">
+                      React app to find out details about your favorite movies
+                      using search query.
+                    </p>
+                    <div class="tech-details">
+                      <p><i class="fab fa-react"></i> Javascript / React</p>
+                      <p><i class="fas fa-star"></i> 1</p>
+                      <p><i class="fas fa-code-branch"></i> 0</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-6 col-6-medium col-12-small">
+                <div class="repo-wrapper">
+                  <a
+                    href="https://github.com/AdityaKadam1994/Cloudy"
+                    target="_blank"
+                    class="image fit"
+                  >
+                    <h3><i class="fas fa-book"></i> Cloudy - Weather App</h3>
+                    <p class="repo-descp">
+                      Android App which shows weather details of your city using
+                      geo location and YQL. You can also search weather for city
+                      using search bar.
+                    </p>
+                    <div class="tech-details">
+                      <p><i class="fab fa-android"></i> Java / Android</p>
+                      <p><i class="fas fa-star"></i> 0</p>
+                      <p><i class="fas fa-code-branch"></i> 1</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-6 col-6-medium col-12-small">
+                <div class="repo-wrapper">
+                  <a
+                    href="https://github.com/AdityaKadam1994/voice-recognition-app"
+                    target="_blank"
+                    class="image fit"
+                  >
+                    <h3><i class="fas fa-book"></i> Voice Recognition App</h3>
+                    <p class="repo-descp">
+                      Just a fun with voice recognition app. It accepts certain
+                      commands please check read me file for it.
+                    </p>
+                    <div class="tech-details">
+                      <p><i class="fab fa-js"></i> Javascript/HTML</p>
+                      <p><i class="fas fa-star"></i> 0</p>
+                      <p><i class="fas fa-code-branch"></i> 0</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-6 col-6-medium col-12-small">
+                <div class="repo-wrapper">
+                  <a
+                    href="https://github.com/AdityaKadam1994/Expense-Tracker--React-"
+                    target="_blank"
+                    class="image fit"
+                  >
+                    <h3><i class="fas fa-book"></i> Expense Tracker</h3>
+                    <p class="repo-descp">
+                      React App to manually log your expenses and track your
+                      expenses using Firebase.
+                    </p>
+                    <div class="tech-details">
+                      <p><i class="fab fa-react"></i> Javascript / React</p>
+                      <p><i class="fas fa-star"></i> 0</p>
+                      <p><i class="fas fa-code-branch"></i> 0</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-6 col-6-medium col-12-small">
+                <div class="repo-wrapper">
+                  <a
+                    href="https://github.com/AdityaKadam1994/GST-App"
+                    target="_blank"
+                    class="image fit"
+                  >
+                    <h3><i class="fas fa-book"></i> GST App</h3>
+                    <p class="repo-descp">
+                      Android App which shows GST rate for various items
+                    </p>
+                    <div class="tech-details">
+                      <p><i class="fab fa-android"></i> Java / Android</p>
+                      <p><i class="fas fa-star"></i> 0</p>
+                      <p><i class="fas fa-code-branch"></i> 0</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </article>
+      </div>
+
+      <!-- Footer -->
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
